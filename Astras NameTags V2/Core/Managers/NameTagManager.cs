@@ -12,7 +12,7 @@ namespace Astras_NameTags_V2.Core.Managers;
 public class NameTagManager : MonoBehaviour
 {
     private const float TagHeight = 0.80f;
-    private const float TagScale = 1f;
+    private const float TagScale = 0.5f;
     private const float PlayerScanInterval = 1f;
     private const float TextUpdateInterval = 0.25f;
     private readonly Dictionary<VRRig, PlayerTag> _tags = new();
@@ -94,7 +94,7 @@ public class NameTagManager : MonoBehaviour
         textObject.transform.SetParent(root.transform, false);
         TextMeshPro text = textObject.AddComponent<TextMeshPro>();
         text.alignment = TextAlignmentOptions.Center;
-        text.fontSize = 4f;
+        text.fontSize = 3f;
         text.fontStyle = FontStyles.Bold;
         text.richText = true;
         text.textWrappingMode = TextWrappingModes.NoWrap;
