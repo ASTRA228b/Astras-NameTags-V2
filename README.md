@@ -35,7 +35,7 @@ Gorilla Tag/BepInEx/plugins
 
 Then launch Gorilla Tag.
 
-** Notes 
+## Notes 
 
 The speaker icon only appears while the player is talking.
 This mod is still being worked on, so things may change in future updates.
